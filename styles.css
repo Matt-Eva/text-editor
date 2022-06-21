@@ -1,3 +1,7 @@
+* {
+    font-family: Helvetica;
+}
+
 body{
     display: grid;
     justify-content: center;
@@ -6,6 +10,7 @@ body{
 #textarea{
     height: 50vh;
     width: 50vw;
+    padding: 10px;
 }
 
 #submit{
