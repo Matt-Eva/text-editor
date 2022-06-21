@@ -1,0 +1,9 @@
+body{
+    display: grid;
+    justify-content: center;
+}
+
+#textarea{
+    height: 50vh;
+    width: 50vw;
+}
