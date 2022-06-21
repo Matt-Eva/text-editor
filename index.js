@@ -1,5 +1,6 @@
 const input = document.getElementById('textarea')
 const container = document.getElementById('container')
+const submit = document.getElementById('submit')
 
 fetch('http://localhost:3000/text')
 .then(r => r.json())
@@ -11,6 +12,13 @@ input.addEventListener('paste', (e) =>{
     const text = e.clipboardData.getData('Text')
     console.log(e.clipboardData.getData('Text'))
     console.log(text.split('\n'))
+})
+
+submit.addEventListener('click', ()=>{
+    if (input.value === ''){
+        return
+    }
+    const text = input.value
 
     const newWriting = {
         text: text
@@ -24,6 +32,7 @@ input.addEventListener('paste', (e) =>{
     })
     .then(r => r.json())
     .then(data => renderText(data))
+    input.value = ''
 })
 
 function renderText(object){

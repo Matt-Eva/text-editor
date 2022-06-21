@@ -11,6 +11,38 @@
     {
       "text": "Testing\n\nOn \n\nEvents\n",
       "id": 3
+    },
+    {
+      "text": "git remote add origin git@github.com:Matt-Eva/text-editor.git\ngit push -u origin main",
+      "id": 4
+    },
+    {
+      "text": "git remote add origin git@github.com:Matt-Eva/text-editor.git\ngit push -u origin main",
+      "id": 5
+    },
+    {
+      "text": "as\n    const newWriting = {\n        text: text\n    }\n    fetch('http://localhost:3000/text', {\n        method: 'POST',\n        headers: {\n            'Content-Type': 'application/json'\n        },\n        body: JSON.stringify(newWriting)\n    })\n    .then(r => r.json())\n    .then(data => renderText(data))",
+      "id": 6
+    },
+    {
+      "text": "\n    const newWriting = {\n        text: text\n    }\n    fetch('http://localhost:3000/text', {\n        method: 'POST',\n        headers: {\n            'Content-Type': 'application/json'\n        },\n        body: JSON.stringify(newWriting)\n    })\n    .then(r => r.json())\n    .then(data => renderText(data))",
+      "id": 7
+    },
+    {
+      "text": "\n    const newWriting = {\n        text: text\n    }\n    fetch('http://localhost:3000/text', {\n        method: 'POST',\n        headers: {\n            'Content-Type': 'application/json'\n        },\n        body: JSON.stringify(newWriting)\n    })\n    .then(r => r.json())\n    .then(data => renderText(data))",
+      "id": 8
+    },
+    {
+      "text": "",
+      "id": 9
+    },
+    {
+      "text": "",
+      "id": 10
+    },
+    {
+      "text": "",
+      "id": 11
     }
   ]
 }
